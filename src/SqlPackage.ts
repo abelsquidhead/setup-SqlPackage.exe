@@ -11,7 +11,7 @@ export class SqlPackage {
 
     execute():void {
         console.log("oookkkkkk " + this.name);
-        core.addPath('C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\150');
+        core.addPath('C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\IDE\\Extensions\\Microsoft\\SQLDB\\DAC\\150');
     }
 }
 
