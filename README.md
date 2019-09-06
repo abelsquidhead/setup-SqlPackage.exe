@@ -8,3 +8,4 @@ See the walkthrough located [here](https://github.com/actions/toolkit/blob/maste
 
 In addition to walking your through how to create an action, it also provides strategies for versioning, releasing and referencing your actions.
 
+New
