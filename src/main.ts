@@ -3,7 +3,6 @@ import * as core from '@actions/core';
 
 async function run() {
   try {
-    const exec = require ('@actions/exec');
     let sqlpkg = new SqlPackageExe.SqlPackage();
     sqlpkg.execute();
   } catch (error) {
