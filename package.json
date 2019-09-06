@@ -1,8 +1,8 @@
 {
-  "name": "node12-template-action",
+  "name": "setup-sqlpackage.exe",
   "version": "0.0.0",
   "private": true,
-  "description": "Node 12 template action",
+  "description": "This action setups up then windows vm for sqlpackage.exe used to do dacpac deployments of database schema for sql server",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -17,7 +17,7 @@
     "node",
     "setup"
   ],
-  "author": "GitHub",
+  "author": "abelsquidhead",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.0.0"

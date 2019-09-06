@@ -1,6 +1,6 @@
-name: 'Node 12 Template Action'
-description: 'Get started with Node actions'
-author: 'GitHub'
+name: 'setup-sqlpackage.exe'
+description: 'This action setups up then windows vm for sqlpackage.exe used to do dacpac deployments of database schema for sql server'
+author: 'abelsquidhead'
 inputs:
   myInput:
     description: 'Input to use'
