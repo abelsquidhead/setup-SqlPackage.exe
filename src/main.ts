@@ -6,6 +6,7 @@ async function run() {
     core.debug(`Hello ${myInput}`);
     core.error('ok, here is my error')
     core.warning('ok, here is a warning')
+
   } catch (error) {
     core.setFailed(error.message);
   }

@@ -3,7 +3,7 @@ on: [pull_request, push]
 
 jobs:
   check_pr:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
     - name: run action
       uses: abelsquidhead/setup-sqlpackage.exe@release/v1
