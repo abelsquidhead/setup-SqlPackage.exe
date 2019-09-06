@@ -1,4 +1,3 @@
-
 import * as core from '@actions/core';
 
     
@@ -7,9 +6,10 @@ export class SqlPackage {
     exec;
 
     constructor() {
-        this.exec = require('@actions/exec');
+        const the_exec = require('@actions/exec');
         const myInput = core.getInput('myInput');
         this.name = myInput;
+        this.exec = the_exec;
     }
 
     execute():void {
