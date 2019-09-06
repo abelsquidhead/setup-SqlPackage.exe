@@ -1,0 +1,11 @@
+name: "test action"
+on: [pull_request, push]
+
+jobs:
+  check_pr:
+    runs-on: ubuntu-latest
+    steps:
+    - name: run action
+      uses: abelsquidhead/setup-sqlpackage.exe@releases/v1
+      with:
+        myInput: Abel
