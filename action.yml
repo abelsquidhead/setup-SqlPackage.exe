@@ -2,9 +2,15 @@ name: 'setup-sqlpackage.exe'
 description: 'This action setups up then windows vm for sqlpackage.exe used to do dacpac deployments of database schema for sql server'
 author: 'abelsquidhead'
 inputs:
-  myInput:
-    description: 'Input to use'
-    default: 'world'
+  connectionString: 
+    description: 'connection string to the SQL Server database'
+    required: true
+  dacpac:
+    description: 'Path to the dacpac file.'
+    required: true
+  additionalArguments:
+    description: 'Additional SqlPackage.exe arguments that will be applied when deploying the SQL Database'
+    required: false
 runs:
   using: 'node12'
   main: 'lib/main.js'

@@ -8,4 +8,5 @@ jobs:
     - name: run action
       uses: abelsquidhead/setup-sqlpackage.exe@release/v1
       with:
-        myInput: Abel
+        connectionString: ${{ secrets.DATABASE_CONNECTION_STRING }}
+        dacpac: C:\abelwork\something.dacpac
